@@ -1,0 +1,37 @@
+.title {
+  max-width: 802px;
+  padding: 0 10px;
+  @extend %margin_auto;
+  color: $color-base;
+
+  &-slogan {
+    font-size: 72px;
+    font-family: $main-font-kaushan;
+    font-weight: 400;
+    margin-bottom: 42px;
+  }
+  &-subtitle {
+    font-size: 130px;
+    line-height: 140px;
+    font-family: $main-font-stack;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 122px;
+  }
+  &-btn {
+    width: 160px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid $color-base;
+    border-radius: 10px;
+    font-size: $main-size-base;
+    color: $color-base;
+    font-family: $main-font-stack;
+    font-weight: 700;
+    margin-bottom: 230px;
+  }
+  &-btn:hover {
+    background-color: rgba(255, 0, 0, 0.356);
+    transition: background-color 1s ease-in-out;
+  }
+}

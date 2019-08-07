@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 10px 0;
+}
+.service {
+  max-width: 1150px;
+  @extend %margin_auto;
+  margin-bottom: 92px;
+}
+.container {
+  max-width: 1200px;
+  @extend %margin_auto;
+  margin-bottom: 150px;
+}
+.box {
+  margin: 0 auto;
+  width: 1200px;
+  height: 54px;
+  margin-bottom: 20px;
+}
+.page__header {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.wrap {
+  @include center_flex_row('horspbt');
+}

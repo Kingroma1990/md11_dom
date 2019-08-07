@@ -1,0 +1,30 @@
+.icon {
+  width: 234px;
+  @include center_flex_row('horspbt');
+  margin-left: 72px;
+  margin-top: 205px;
+
+  &__socials {
+    height: 57px;
+    width: 57px;
+    background-color: $color-acent;
+    display: block;
+
+    a {
+      width: 57px;
+      height: 57px;
+      @include center_flex_row('all');
+    }
+    svg {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      fill: $color-after;
+    }
+    svg:hover {
+      fill: $color-base;
+      background-color: $color-after;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.footer {
+  &::before {
+    @include pseudo;
+    height: 2px;
+    background-color: #e5e5e5;
+  }
+
+  &__info-text {
+    p {
+      font-size: $main-size-base;
+      color: $color-subtitle;
+      font-family: $main-font-stack;
+      font-weight: 400;
+    }
+  }
+  &__info-text {
+    a {
+      font-size: $main-size-base;
+      color: #f7aeae;
+      font-family: $main-font-stack;
+      font-weight: 400;
+      text-decoration: none;
+    }
+  }
+  &__button {
+    display: flex;
+    margin-top: 14px;
+  }
+  &__info {
+    @include center_flex_row('spbt/center');
+  }
+}
+input[type='email'] {
+  width: 230px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ccc;
+  font-family: $main-font-roboto;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 20px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  font-size: $main-size-base;
+  color: $color-base;
+  font-family: $main-font-stack;
+  font-weight: 700;
+  @extend %button;
+}

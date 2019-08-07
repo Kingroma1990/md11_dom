@@ -1,0 +1,16 @@
+.team__title {
+  font-size: $main-size-base;
+  color: $color-subtitle;
+  font-family: $main-font-stack;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.team__subtitle {
+  font-size: 15px;
+  line-height: 24px;
+  color: $color-content__text;
+  font-family: $main-font-roboto;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 8px;
+}

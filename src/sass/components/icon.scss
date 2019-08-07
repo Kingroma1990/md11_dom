@@ -1,0 +1,42 @@
+.clock {
+  background-image: url(../images/icon_1@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_1@2x.png);
+  }
+}
+.line-graph {
+  background-image: url(../images/icon_2@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_2@2x.png);
+  }
+}
+.computer {
+  background-image: url(../images/icon_3@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_3@2x.png);
+  }
+}
+.book {
+  background-image: url(../images/icon_4@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_4@2x.png);
+  }
+}
+.home {
+  background-image: url(../images/icon_5@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_5@2x.png);
+  }
+}
+.digital {
+  background-image: url(../images/icon_6@1x.png);
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/icon_6@2x.png);
+  }
+}

@@ -1,0 +1,30 @@
+/*
+   Import partials below
+*/
+@import 'helpers/variables.scss';
+@import 'helpers/placeholder.scss';
+@import 'helpers/mixin.scss';
+@import 'normalize.scss';
+@import 'fonts.scss';
+@import 'base.scss';
+
+// components
+@import './components/wrapper.scss';
+@import './components/baner.scss';
+@import './components/navigation.scss';
+@import './components/menu.scss';
+@import './components/title.scss';
+@import './components/webkit.scss';
+@import './components/service.scss';
+@import './components/list__item.scss';
+@import './components/content__text.scss';
+@import './components/icon.scss';
+@import './components/team.scss';
+@import './components/socials.scss';
+@import './components/team__subtitle.scss';
+@import './components/footer.scss';
+// @import '';
+// @import '';
+// @import '';
+
+
